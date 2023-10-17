@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { getMatFormFieldDuplicatedHintError } from '@angular/material/form-field';
-import { FormControl, FormGroup } from '@angular/forms';
+// import { MatFormFieldModule } from '@angular/material/form-field';
+// import { MatInputModule } from '@angular/material/input';
+// import { getMatFormFieldDuplicatedHintError } from '@angular/material/form-field';
+// import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-register',

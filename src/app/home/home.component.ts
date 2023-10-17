@@ -1,4 +1,4 @@
-import { TmplAstBoundAttribute } from '@angular/compiler';
+// import { TmplAstBoundAttribute } from '@angular/compiler';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router'
 
@@ -21,6 +21,10 @@ export class HomeComponent {
   showBtn() {
     this.router.navigate(['/showuser']);
   }
+  dataBtn() {
+    this.router.navigate(['/database']);
+  }
+
 
 }
 

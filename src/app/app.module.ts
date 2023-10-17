@@ -14,6 +14,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
+import { DatabaseComponent } from './database/database.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import {MatInputModule} from '@angular/material/input';
     LoginComponent,
     NavbarComponent,
     RegisterComponent,
-    ShowuserComponent
+    ShowuserComponent,
+    DatabaseComponent
   ],
   imports: [
     BrowserModule,

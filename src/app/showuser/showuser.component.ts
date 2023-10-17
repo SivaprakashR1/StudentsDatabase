@@ -16,4 +16,5 @@ export class ShowuserComponent {
   constructor() {
     this.user_records=JSON.parse(localStorage.getItem('users')||'{}')
   }
+
 }
