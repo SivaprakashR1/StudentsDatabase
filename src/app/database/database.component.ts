@@ -27,7 +27,7 @@ export class DatabaseComponent {
   providedIn: 'root'
 })
 export class MyApiService {
-  private apiUrl = 'https://api.example.com'; // Replace with your API endpoint
+  private apiUrl = 'https://652e0dd0f9afa8ef4b27fd5f.mockapi.io/necstudents/college'; // Replace with your API endpoint
 
   constructor(private http: HttpClient) { }
 
